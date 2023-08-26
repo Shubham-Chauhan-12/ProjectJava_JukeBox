@@ -13,14 +13,14 @@ public class ConnectionToDb {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/Jukebox_Project";
+            String url = "jdbc:mysql://localhost:3306/jukebox_project";
             String user = "root";
-            String password = "5120";
+            String password = "root";
 
             connection = DriverManager.getConnection(url, user, password);
 
             if (connection != null) {
-                //System.out.println("Connection Succeed");
+                System.out.println("Connection Succeed");
             } else {
                 System.out.println("Connection - Failed");
             }

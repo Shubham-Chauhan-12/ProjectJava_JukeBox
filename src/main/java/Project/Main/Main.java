@@ -55,7 +55,7 @@ public class Main {
                                 audioStream.playPlayer(songNo);
                                 while (true) {
                                     System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
-                                    System.out.println("<---------------------------------------P - Play || Q - Pause || L - Previous || F - Next Song || R - Resume Song || S - Stop || E - Exit---------------------------------------->");
+                                    System.out.println("<------------------------------------P - Play || Q - Pause || L - Previous || F - Next Song || R - Resume Song || S - Stop || E - Exit--------------------------------->");
                                     System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
                                     char res = scanner.next().charAt(0);
                                     audioStream.gotoPlayerChoice(res);
